@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Teko&family=Ubuntu&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(64, 10, 75);
+}
+
+/* CSS for logo of the website / company */
+.logoName{
+    font-size: 35px;
+    margin: 12px 0 0 15px;
+    font-family: Teko;
+    user-select: none;
+}
+
+.login_signup{
+    margin: 20px 20px 0 0 ;
+    user-select: none;
+}
+
+.login , .signup{
+    font-size: 15px;
+    font-weight: bold;
+    border-radius:18px;
+    border: 2px solid rgb(246, 220, 252);
+    background-color: rgb(246, 220, 252);
+    color: rgb(64, 10, 75);
+    padding: 5px 25px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+ul{
+    user-select: none;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 25px 15px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(246, 220, 252);
+    font-size: 18px;
+}
+
+.login:hover , .signup:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0 ease 0.3s;
+    color: rgb(93, 16, 109);
+}
+
+.logoName:hover{
+    cursor: pointer;
+}
+
+a:hover{
+    transition: all 0 ease 0.3s;
+    text-decoration: underline;
+    font-size: 18.5px;
+}
+
+/*Low resolution tab and ipads max-width = 767px*/
+@media (min-width:481px) and (max-width : 767px){
+    button{
+        font-size: 10px;
+        font-weight: bold;
+        padding: 3px 20px;
+    }
+    .login_signup{
+        margin: 25px 20px 0 0 ;
+    }
+    a{
+        font-size: 15px;
+    }
+    a:hover{
+        font-size: 15.5px;
+    }
+    li{
+        margin: 25px 10px;
+    }
+}
+
+/*Tablets and ipads portrait mode max-width = 1024px*/
+@media  (max-width : 480px){
+    .logoName{
+        top: 0px;
+        font-size: 20px;
+        left: 127px;
+        position: relative;
+    }
+    ul{
+        display: none;
+    }
+    button{
+        font-size: 8px;
+        font-weight: bold;
+        padding: 3px 12px;
+    }
+    .login_signup{
+        margin: 10px 8px 0 0 ;
+    }
+}
