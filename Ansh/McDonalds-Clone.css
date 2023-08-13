@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Noto+Sans:wght@300;400;500;700&family=Teko&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans';
+    font-size: 14px;
+}
+
+/**********                 Navbar-head of website      **********/
+.header-container{
+    box-shadow: 0px 0px 10px 0px rgba(0,0, 0, 0.2);
+}
+
+.head-of-body{
+    height: 135px;
+    margin: 0px 90px 0 90px;
+    display: grid;
+    grid-template-columns: 170px 1000px auto;
+}
+
+.logo-bar-icon-container{
+    display: flex;
+}
+
+.logo-bar-icon-container img{
+    margin: 14px 0px;
+}
+.logo-bar-icon-container img:hover{
+    cursor: pointer;
+}
+
+#bars-icon{
+    padding: 70px 5px 0px 5px;
+    display: none;
+}
+
+.upper-navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 15px; 
+    align-items: center;
+}
+
+.sign-up-and-careers-links button , a{
+    font-size: 13px;
+}
+
+#language-btn{
+    background: none;
+    border: none;
+    margin: 0 10px;
+}
+
+#language-btn:hover{
+    cursor: pointer;
+}
+
+.language-list-dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-container{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    max-width: 200px;
+    border-radius: 7px;
+    background-color: #e9e7e7;
+    padding: 10px 30px;
+}
+
+.language-list-dropdown:hover .dropdown-container{
+    display: block;
+}
+
+
+.dropdown-container a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 7px 28px;
+    border-radius: 3px;
+    user-select: none;
+}
+.dropdown-container a:hover{
+    background-color: #d1cfcf;
+    font-weight: bold;
+}
+
+.sign-up-and-careers-links a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0 10px;
+}
+
+.location-order-details-link a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0 10px;
+    font-size: 13px;
+}
+#location{
+    color: #1c0bb4;
+    text-decoration: underline;
+}
+
+#order-btn{
+    background-color: #fdbe37;
+    margin: 0 10px;
+    padding: 7px 22px 10px 22px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+#order-btn:hover{
+    cursor: pointer;
+}
+
+#cross-bar-icon{
+    font-size: 1.3rem;
+}
+
+.lower-navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 130px 33px 15px; 
+    align-items: center;
+}
+
+.lower-navbar-container a , button{
+    font-size: 15.5px;
+}
+
+.lower-navbar-container a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#menu-btn{
+    background: none;
+    border: none;
+    margin: 0 10px;
+}
+
+.menu-list-dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.menu-list-dropdown:hover .menu-dropdown-container{
+    display: block;
+}
+
+.menu-dropdown-container{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    max-width: 880px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1.5px solid #dbd9d9;
+    padding: 20px 40px;
+}
+
+.item-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item{
+    display:flex;
+    flex-direction:row;
+    margin: 10px 40px;
+    padding: 10px 20px;
+}
+
+.item img{
+    width: 55px;
+    height: 58px;
+    margin-right: 10px;
+}
+
+.item a {
+    display: inline;
+    padding: 15px 8px;
+    font-size: 14px;
+}
+
+#menu-btn:hover{
+    cursor: pointer;
+}
+
+#cross-bar-icon{
+    padding: 20px 30px;
+    display: none;
+}
+
+/**********                 Section of website      **********/
+
+.section-of-body{
+    margin: 100px 45px;
+}
+
+.item-detail-box{
+    display: flex;
+    flex-direction:row ;
+    margin: 100px 15px;
+}
+
+.container-box-of-items{
+    margin: 30px 60px;
+}
+
+.image-box img{ 
+    height: 320px;
+    width: 700px;
+    margin-right: 40px;
+}
+
+.details-offers-time-deals h1{
+    font-size: 33px;
+    font-weight: 900;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.details-offers-time-deals .p1{
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+.details-offers-time-deals .p2{
+    font-size: 9px;
+    margin-bottom: 22px;
+}
+
+.details-offers-time-deals button{
+    background-color: #fdbe37;
+    margin: 20px 10px;
+    padding: 10px 25px 14px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+/**********             Footer-of-the-site          *********/
+
+.foot-container{
+    margin: 20px 40px 0 40px;
+    position: relative;
+    bottom: 0;
+}
+
+#footer-of-body{
+    margin: 20px 40px ;
+}
+
+.cmp-footer-important-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 34px;
+}
+
+.cmp-footer-links-container{
+    padding: 10px 10px;
+    max-width: 185px;
+}
+
+.cmp-footer-links-container h3{
+    padding: 14px 0px;
+    font-size: 1.2rem;
+}
+
+.cmp-footer-links-container ul li{
+    list-style: none;
+}
+
+.cmp-footer-links-container ul li a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 1.05rem;
+    color: #000000;
+}
+
+.cmp-footer-contacting-medias-sites{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 15px 0;
+    border-bottom: 1.5px solid #bbbaba;
+    padding: 0 0 40px 0;
+}
+
+.media-icons-list ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+}
+
+.media-icons-list ul li button{
+    padding: 3px 8px;
+    border-radius: 14px;
+    border: 1px solid #bbbaba;
+    background-color: #faf7f7;
+}
+
+.media-icons-list ul li button i{
+    font-size: 1.1rem;
+}
+.media-icons-list ul li button:hover{
+    cursor: pointer;
+}
+
+.download-app-buttons{
+    display: flex;
+}
+
+.download-app-buttons button{
+      display: flex;
+      align-items: center;
+      padding: 3px 7px;
+      margin: 0 7px;
+      border-radius: 7px;
+      border: none;
+      background-color: #000000;
+      color: #ffffff;
+}
+.download-app-buttons button i{
+    font-size: 1.6rem;
+    padding: 5px 10px ;
+}
+.download-app-buttons button p{
+    font-size: 0.8rem;
+}
+.download-app-buttons button span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.cmp-footer-privacy-terms-container{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.privacy-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.privacy-links ul li{
+    list-style: none;
+    display: inline;
+}
+
+.privacy-links ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0 15px;
+    color: #000000;
+}
+
+.personal-info a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0 15px;
+    color: #000000;
+}
