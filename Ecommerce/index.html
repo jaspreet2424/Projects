@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>FashionToday</title>
+</head>
+<body>
+    
+    <header class="page-header" id="header">
+
+        <nav class="navbar">
+            <div class="upperNavbar">
+                <label><a href="index.html" class="navbarBrand">FashionToday</a></label>
+
+                <div class="searchBar">
+                    <input type="search" placeholder="search..." class="searchInput">
+                    <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+                </div>
+
+                <label><a href="" class="offerLink">Limited Offers!</a></label>
+                
+            </div>
+
+            <div class="lowerNavbar">
+                <div class="brandsLinks">
+                    <a href="#" class="itemLink">RedTape</a>
+                    <a href="#" class="itemLink">Tommy</a>
+                    <a href="#" class="itemLink">H&M</a>
+                    <a href="#" class="itemLink">Jordan</a>
+                    <a href="#" class="itemLink">Puma</a>
+                    <a href="#" class="itemLink">Monte Carlo</a>
+                    <button class="closeNav">X</button>
+                </div>
+                <button class="dropdown" id="dropdown">Options</button>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <div class="slider-section">
+
+        <div class="slideWrapper">
+            <div class="sliderItem">
+                <h2 class="sliderItemTitle">RedTape<br>Season special</h2>
+                <h2 class="sliderItemPrice">INR-850</h2>
+                <a href="#productSection"><button class="purchaseBTN">BUY NOW!</button></a>
+                <img src="./img/redtape.jpg" alt="RedTape" class="image">
+                
+            </div>
+
+            <div class="sliderItem">
+                <h2 class="sliderItemTitle">Get Fashionable<br>with Tommy Hilfiger</h2>
+                <h2 class="sliderItemPrice">INR-1139</h2>
+                <a href="#productSection"><button class="purchaseBTN">BUY NOW!</button></a>
+                <img src="./img/tommy1.jpg" alt="Tommy"class="image">
+                
+            </div>
+
+            <div class="sliderItem">
+                <h2 class="sliderItemTitle">H&M Brings new<br> stuff  this summer</h2>
+                <h2 class="sliderItemPrice">INR-999</h2>
+                <a href="#productSection"><button class="purchaseBTN">BUY NOW!</button></a>
+                <img src="./img/h&m1.jpg" alt="H&M"class="image">
+                
+            </div>
+            <div class="sliderItem">
+                <h2 class="sliderItemTitle">The ultimate <br>quick fix - Jordan</h2>
+                <h2 class="sliderItemPrice">INR-759</h2>
+                <a href="#productSection"><button class="purchaseBTN">BUY NOW!</button></a>
+                <img src="./img/jordan.jpeg" alt="jordan"class="image">
+                
+            </div>
+
+            <div class="sliderItem">
+                <h2 class="sliderItemTitle">Puma brings<br>summer wear</h2>
+                <h2 class="sliderItemPrice">INR-950</h2>
+                <a href="#productSection"><button class="purchaseBTN">BUY NOW!</button></a>
+                <img src="./img/puma1.jpg" alt="puma"class="image">
+                
+            </div>
+
+            <div class="sliderItem">
+                <h2 class="sliderItemTitle">Be cool and stylish  <br>-Monte Carlo</h2>
+                <h2 class="sliderItemPrice">INR-950</h2>
+                <a href="#productSection"><button class="purchaseBTN">BUY NOW!</button></a>
+                <img src="./img/montecarlo.jpg"alt="monteCarlo" class="image">
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div class="featuresSection">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" class="featureImg">
+            <span class="featureTitle">Free Shipping</span>
+            <span class="featureDesc">Get a worldwide shipping at cost of zero</span>
+        </div>
+        <div class="feature">
+            <img src="./img/gift.png" alt="" class="featureImg">
+            <span class="featureTitle">Gift Vouchers</span>
+            <span class="featureDesc">Get some gift cards and use gift Vouchers</span>
+        </div>
+        <div class="feature">
+            <img src="./img/return.png" alt="" class="featureImg">
+            <span class="featureTitle">30 Days Return</span>
+            <span class="featureDesc">Return product in 30 days,100% money back guarantee </span>
+        </div>
+        <div class="feature">
+            <img src="./img/contact.png" alt="" class="featureImg">
+            <span class="featureTitle">Contact us</span>
+            <span class="featureDesc">Keep in touch with mail and social media</span>
+        </div>
+    </div>
+
+    <div class="productSection" id="productSection">
+        <img src="./img/redtape.jpg" alt="" class="productBgImg">
+        <div class="productDetails">
+            <h1 class="productTitle">Red Tape</h1>
+            <h3 class="productPrice">INR-850</h3>
+            <p class="productDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis modi debitis enim rerum, necessitatibus nemo.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <span class="size">S</span>
+                <span class="size">M</span>
+                <span class="size">L</span>
+                <span class="size">XL</span>
+                <span class="size">XXL</span>
+            </div>
+            <button type="button" class="productBtn">BUY NOW!</button>
+        </div>
+        <div class="paymentDetails" id="paymentDetails">
+            <div class="userDetails">
+                <h1 class="paymentTitle">Personal Information</h1>
+                <input type="text" placeholder="Full Name" required class="inputs">
+                <input type="text" placeholder="phone number" required class="inputs">
+                <input type="text" placeholder="enter your address" required class="inputs">
+            </div>
+            <div class="cardDetails">
+                <h1 class="paymentTitle">Card Details</h1>
+
+                <div class="cardImages">
+                    <img src="./img/visa.png" alt="">
+                    <img src="./img/master.png" alt="">
+                </div>
+                <input type="password" placeholder="Card Number" required  class="inputs">
+                <div class="cardLimits">
+                    <input type="text" placeholder="mm" required class="smInput">
+                    <input type="text" placeholder="yyyy" required class="smInput">
+                    <input type="text" placeholder="cvv" required class="smInput">
+                </div>
+                <button type="button" class="paymentBtn">Proceed</button>
+                <button class="close" type="button">X</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <div class="upperGallery">
+            <h1 class="galleryTitle">Wear light and feel light</h1>
+            <div class="galleryImages">
+                <img src="./img/gallery1.jpg" alt="" class="galleryImg">
+                <img src="./img/gallery5.jpg" alt="" class="galleryImg">
+                <img src="./img/gallery3.jpg" alt="" class="galleryImg">
+            </div>
+        </div>
+        <div class="lowerGallery">
+            <h1 class="galleryTitle">Stay Stylish , Stay Smart</h1>
+            <div class="galleryImages">
+                <img src="./img/gallery2.jpg" alt="" class="galleryImg">
+                <img src="./img/gallery6.jpg" alt="" class="galleryImg">
+                <img src="./img/gallery4.jpg" alt="" class="galleryImg">
+            </div>
+        </div>
+    </div>
+
+    <div class="newSeason">
+        <div class="nsItems">
+            <img src="./img/newSeason.jpg" alt="" class="nsImage">
+        </div>
+        <div class="nsItems nsContent">
+            <h2 class="nsTitle">New Arrivals Coming</h2>
+            <h1 class="nsTitle">New Season</h1>
+            <h1 class="nsTitle">New Collections</h1>
+            <a href="#header">
+                <button type="button" class="nsButton">SELECT YOUR!</button>
+            </a>
+        </div>
+        <div class="nsItems">
+            <img src="./img/newSeason2.jpg" alt="" class="nsImage">
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="leftFooter">
+
+            <div class="footerContent">
+                <h1 class="footerTitle">Products</h1>
+                <ul class="listItems">
+                    <li class="footItem"><a href="#" class="itemLink">RedTape</a></li>
+                    <li class="footItem"><a href="#" class="itemLink">Tommy</a></li>
+                    <li class="footItem"><a href="#" class="itemLink">H&M</a></li>
+                    <li class="footItem"><a href="#" class="itemLink">Jordan</a></li>
+                    <li class="footItem"><a href="#" class="itemLink">Puma</a></li>
+                    <li class="footItem"><a href="#" class="itemLink">Monte Carlo</a></li>
+                </ul>
+            </div>
+
+            <div class="footerContent">
+                <h1 class="footerTitle">Useful Links</h1>
+                <ul class="listItems">
+                    <li class="footItem"><a href="#" class="itemLink">Support</a></li>
+                    <li class="footItem"><a href="#" class="itemLink">Refund</a></li>
+                    <li class="footItem"><a href="#" class="itemLink">FAQ</a></li>
+                    <li class="footItem"><a href="#" class="itemLink">Stories</a></li>
+                </ul>
+            </div>
+            <div class="footerContent">
+                <h1 class="footerTitle">About Us</h1>
+                <ul class="listItems">
+                    <li class="footItem"><a href="#" class="itemLink">Company</a></li>
+                    <li class="footItem"><a href="#" class="itemLink">Contact</a></li>
+                    <li class="footItem"><a href="#" class="itemLink">Stores</a></li>
+                    <li class="footItem"><a href="#" class="itemLink">Affiliates</a></li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <div class="rightFooter">
+            <div class="subscribeMenu">
+                <h2 class="menuTitle">Subscribe to our NewsLetter</h2>
+                <form  class="menuForm">
+                    <input type="email" placeholder="user@gmail.com" required class="menuInput">
+                    <button type="submit" class="menuBtn">Join Now!</button>
+                </form>
+            </div>
+
+            <div class="contactMenu">
+                <h2 class="menuTitle">Follow Us On</h2>
+                <div class="followIcons">
+                    <i class="fa-brands fa-facebook icons">
+                    </i>
+                    <i class="fa-brands fa-x-twitter icons">
+                    </i>
+                    <i class="fa-brands fa-instagram icons">
+                    </i>
+                    <i class="fa-brands fa-whatsapp icons">
+                    </i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/e24141db11.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
