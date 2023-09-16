@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Responsive</title>
+    <link rel="stylesheet" href="./ResponsiveNavbar.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+
+            <div class="navbar-logo">
+                <!-- If you want to add image as logo -->
+                <!-- <img src="" alt="Logo" > -->
+
+                <!-- If you want to add label as logo -->
+                <label ><a href="#" class="nav-brand">Navbar</a></label>
+            </div>
+
+            <div class="navbar-items-container" id="toggle-navbar">
+                <ul class="nav-items-list">
+                    <li class="nav-item"><a href="#" class="item-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="item-link">About us</a></li>
+                    <li class="nav-item"><a href="#" class="item-link">Contact us</a></li>
+                    <li class="nav-item"><a href="#" class="item-link">Services</a></li>
+                    <li class="nav-item"><a href="#" class="item-link">Terms & Conditions</a></li>
+                    <li class="nav-item" id="button-link"><a href="#">Login</a></li>
+                    <li class="nav-item"  id="button-link"><a href="#">Sign-up</a></li>
+                </ul>
+            </div>
+
+            <i class="fa-solid fa-bars" id="bars" ></i>
+        </nav>
+    </header>
+
+    <script src="https://kit.fontawesome.com/e24141db11.js" crossorigin="anonymous"></script>
+
+    <script>
+        let hamburger = document.getElementById("bars");
+        let toggler = document.getElementById("toggle-navbar");
+
+        hamburger.addEventListener('click' , () =>{
+            toggler.classList.toggle('active-navbar');
+        });
+    </script>
+
+
+</body>
+</html>
